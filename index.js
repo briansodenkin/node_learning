@@ -1,11 +1,7 @@
-// console.log(__dirname)
-// setInterval(() => {
-//     console.log('hello')
-// },1000)
+const _ = require('lodash')
 
-// Modules
+const items = [1, [2, [3, 4]]]
 
-const names = require('./names')
-console.log(names)
+const newItems = _.flattenDeep(items)
 
-// sayHi('GG')
+console.log(newItems)

@@ -1,0 +1,24 @@
+{
+  "name": "node_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briansodenkin/node_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briansodenkin/node_learning/issues"
+  },
+  "homepage": "https://github.com/briansodenkin/node_learning#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
